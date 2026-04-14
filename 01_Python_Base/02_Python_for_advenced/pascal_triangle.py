@@ -8,4 +8,5 @@ triangle_p = [[1 for _ in range(i + 1)] for i in range(n + 1)]
 
 make_triangle(n, triangle_p)
 
-print(triangle_p[n])
+for row in range(len(triangle_p) - 1):
+    print(*triangle_p[row])
