@@ -1,5 +1,4 @@
 def is_latin(matrix, ideal):
-    mine = []
     for i in range(n):
         ceil = []
         for j in range(n):
